@@ -1,0 +1,125 @@
+body{
+ display: flex;   
+ width: 100%;
+ min-height: 100vh;
+ margin: 0;
+ padding: 0;
+justify-content: center;
+align-items: center ;
+background-color: lightgray;    
+}
+
+.celular{
+display: flex;    
+width: 50%;   
+justify-content: center;
+align-items: center; 
+}
+
+.celular img{
+ height: 50rem;   
+}
+
+.login{
+ display:flex;
+ flex-direction: column;
+ 
+}
+
+.login2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: white;
+    width: 600px;
+    justify-items: center;
+    align-items: center;
+}
+
+.inscreva{
+display: flex; 
+flex-direction: column;   
+ border: 1px solid gray;
+ background-color: white;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ width: 600px;   
+}
+
+.insta{
+ background-color: lightgrey;   
+}
+
+.perfilfoto img{
+ border: 1px solid white;
+ border-radius: 50%;   
+}
+
+.continue{ 
+  border: 1px solid rgb(11, 108, 206);
+  color: white;
+  background-color: rgb(11, 108, 206);
+  border-radius: 2px;
+  padding: 2px;  
+}
+
+.remove{
+  margin: 10px;    
+}
+.baixe{
+  display: flex;
+ font-size: 15px;
+ justify-content: center;
+ margin-top: 20px;
+ width: 600px;
+}
+.fim{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.app1{
+margin:0;
+padding:0;  
+width: 50%;
+height: 50%;
+justify-items: end;   
+}
+.figura{
+width: 50%;
+height: 50%;
+margin:0;
+padding:0;
+justify-content: start;  
+}
+
+@media (max-width:1024px ) {
+  .login {
+    width: 30% ;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+      background-color: #ffffff;
+  }
+
+  body {
+      width: 90%;
+  }
+
+  .celular {
+      display: none;
+  }
+
+  .login {
+      width: 100%;
+  }
+  
+  .login {
+      border: 1px solid transparent;
+  }
+}
+
+
